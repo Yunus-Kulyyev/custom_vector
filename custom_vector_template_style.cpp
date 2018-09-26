@@ -28,7 +28,7 @@ public:
             {
                 tempArray[i] = expandingArray[i];
             }
-            expandingArray = new varType[SIZE];
+            expandingArray = new varType[SIZE+1];
             for(int i = 0; i < SIZE; i++)
             {
                 expandingArray[i] = tempArray[i];
